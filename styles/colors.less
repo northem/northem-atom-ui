@@ -67,38 +67,38 @@ Arctic Versioning Specification (ArcVer)
 /* +----------------------------------------------------------------------------+
    + Core - Background                                                    [1.0] +
    +----------------------------------------------------------------------------+ */
-@color-background-highlight:     @gray;
+@color-background-highlight:     @northem2;
 @color-background-selected:      @color-base-accent;
-@color-background-level-info:    saturate(@blue,6%);
-@color-background-level-success: saturate(@lime,6%);
-@color-background-level-warning: saturate(@yellow,6%);
-@color-background-level-error:   saturate(@red,6%);
+@color-background-level-info:    saturate(@northem9,6%);
+@color-background-level-success: saturate(@northem14,6%);
+@color-background-level-warning: saturate(@northem13,6%);
+@color-background-level-error:   saturate(@northem11,6%);
 /* +----------------------------------------------------------------------[1.0]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Badge                                                         [1.1] +
    +----------------------------------------------------------------------------+ */
-@color-badge-background: @light-gray;
+@color-badge-background: @northem3;
 /* +----------------------------------------------------------------------[1.1]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Base                                                          [1.2] +
    +----------------------------------------------------------------------------+ */
-@color-base-accent:     @dark-blue;
-@color-base-background: @darkest-gray;
-@color-base-border:     @dark-gray;
+@color-base-accent:     @northem10;
+@color-base-background: @northem0;
+@color-base-border:     @northem1;
 /* +----------------------------------------------------------------------[1.2]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Button                                                        [1.3] +
    +----------------------------------------------------------------------------+ */
-@color-button-background:                                   @dark-blue;
+@color-button-background:                                   @northem10;
 @color-button-background-hover:                             lighten(@color-button-background,2%);
 @color-button-background-selected:                          lighten(@color-button-background,2%);
 @color-button-text-selected:                                @color-text-highlight;
 @color-button-color-text-highlight:                         lighten(@color-text-highlight,20%);
-@color-button-specifiedtask-settings-view-background:       @gray;
-@color-button-specifiedtask-settings-view-background-hover: @darkest-gray;
+@color-button-specifiedtask-settings-view-background:       @northem2;
+@color-button-specifiedtask-settings-view-background-hover: @northem0;
 /* +----------------------------------------------------------------------[1.3]-+ */
 
 /* +----------------------------------------------------------------------------+
@@ -111,55 +111,55 @@ Arctic Versioning Specification (ArcVer)
    + Core - Diff                                                          [1.5] +
    +----------------------------------------------------------------------------+ */
 @color-diff-ignored:  @color-text-faded;
-@color-diff-renamed:  @yellow;
-@color-diff-added:    @lime;
-@color-diff-modified: @blue;
-@color-diff-removed:  @red;
+@color-diff-renamed:  @northem13;
+@color-diff-added:    @northem14;
+@color-diff-modified: @northem9;
+@color-diff-removed:  @northem11;
 /* +----------------------------------------------------------------------[1.5]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Icon                                                          [1.6] +
    +----------------------------------------------------------------------------+ */
-@color-icon-trashcan:       @red;
-@color-icon-check:          @lime;
-@color-icon-cloud-download: @blue;
-@color-icon-gear:           @white;
-@color-icon-playback-play:  @lime;
-@color-icon-playback-pause: @yellow;
-@color-icon-heart:          @red;
+@color-icon-trashcan:       @northem11;
+@color-icon-check:          @northem14;
+@color-icon-cloud-download: @northem9;
+@color-icon-gear:           @northem6;
+@color-icon-playback-play:  @northem14;
+@color-icon-playback-pause: @northem13;
+@color-icon-heart:          @northem11;
 /* +----------------------------------------------------------------------[1.6]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Input                                                         [1.7] +
    +----------------------------------------------------------------------------+ */
-@color-input-background:           darken(@darkest-gray, 5%);
+@color-input-background:           darken(@northem0, 5%);
 @color-input-background-focus:     fadein(@color-input-background, 6%);
 @color-input-selected:             darken(@color-background-selected, 6%);
 @color-input-selected-focus:       @color-background-selected;
-@color-input-selected-editor-mini: @dark-blue;
-@color-input-selected-border:      @dark-blue;
+@color-input-selected-editor-mini: @northem10;
+@color-input-selected-border:      @northem10;
 /* +----------------------------------------------------------------------[1.7]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Keybinding                                                    [1.8] +
    +----------------------------------------------------------------------------+ */
-@color-keybinding-background: @gray;
-@color-keybinding-border:     @blue;
+@color-keybinding-background: @northem2;
+@color-keybinding-border:     @northem9;
 /* +----------------------------------------------------------------------[1.8]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Overlay                                                       [1.9] +
    +----------------------------------------------------------------------------+ */
-@color-overlay-background-backdrop-hue: hue(@gray);
+@color-overlay-background-backdrop-hue: hue(@northem2);
 @color-overlay-background-backdrop:     rgba(37,37,38,.6);
 /* +----------------------------------------------------------------------[1.9]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Panel                                                        [1.10] +
    +----------------------------------------------------------------------------+ */
-@color-panel-inset-background: lighten(@darkest-gray, 4%);
-@color-panel-inset-border:     fadeout(@darkest-gray, 15%);
-@color-panel-background:       @darkest-gray;
+@color-panel-inset-background: lighten(@northem0, 4%);
+@color-panel-inset-border:     fadeout(@northem0, 15%);
+@color-panel-background:       @northem0;
 /* +---------------------------------------------------------------------[1.10]-+ */
 
 /* +----------------------------------------------------------------------------+
@@ -172,33 +172,33 @@ Arctic Versioning Specification (ArcVer)
 /* +----------------------------------------------------------------------------+
    + Core - Scrollar                                                     [1.12] +
    +----------------------------------------------------------------------------+ */
-@color-scrollbar:            @gray;
-@color-scrollbar-background: darken(@darkest-gray, 3%);
+@color-scrollbar:            @northem2;
+@color-scrollbar-background: darken(@northem0, 3%);
 /* +---------------------------------------------------------------------[1.12]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Settings-View                                                [1.13] +
    +----------------------------------------------------------------------------+ */
-@color-settings-view-card-border:        @darkest-gray;
-@color-settings-view-section-background: @dark-gray;
-@color-settings-view-section-border:     @gray;
+@color-settings-view-card-border:        @northem0;
+@color-settings-view-section-background: @northem1;
+@color-settings-view-section-border:     @northem2;
 /* +---------------------------------------------------------------------[1.13]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Site                                                         [1.14] +
    +----------------------------------------------------------------------------+ */
-@color-site-1: @lime;
-@color-site-2: @blue;
-@color-site-3: @yellow;
-@color-site-4: @red;
-@color-site-5: @orange;
+@color-site-1: @northem14;
+@color-site-2: @northem9;
+@color-site-3: @northem13;
+@color-site-4: @northem11;
+@color-site-5: @northem12;
 /* +---------------------------------------------------------------------[1.14]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Tab                                                          [1.15] +
    +----------------------------------------------------------------------------+ */
-@color-tab-background:          @darkest-gray;
-@color-tab-background-editor:   @gray;
+@color-tab-background:          @northem0;
+@color-tab-background-editor:   @northem2;
 @color-tab-background-dragged:  darken(@color-tab-background, 8%);
 @color-tab-bar-background:      @color-base-background;
 @color-tab-text:                @color-text-subtle;
@@ -206,38 +206,38 @@ Arctic Versioning Specification (ArcVer)
 @color-tab-text-editor:         @color-text-highlight;
 @color-tab-icon:                @color-text-subtle;
 @color-tab-icon-hover:          @color-base-accent;
-@color-tab-icon-hover-modified: @red;
+@color-tab-icon-hover-modified: @northem11;
 /* +---------------------------------------------------------------------[1.15]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Text                                                         [1.16] +
    +----------------------------------------------------------------------------+ */
-@color-text:               @dirty-white;
-@color-text-selected:      @dirty-white;
+@color-text:               @northem5;
+@color-text-selected:      @northem5;
 @color-text-highlight:     lighten(@color-text,5%);
 @color-text-faded:         fade(@color-text, 20%);
 @color-text-subtle:        fadeout(@color-text, 40%);
-@color-text-level-info:    @blue;
-@color-text-level-success: @lime;
-@color-text-level-warning: @yellow;
-@color-text-level-error:   @red;
+@color-text-level-info:    @northem9;
+@color-text-level-success: @northem14;
+@color-text-level-warning: @northem13;
+@color-text-level-error:   @northem11;
 /* +---------------------------------------------------------------------[1.16]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Tooltip                                                      [1.17] +
    +----------------------------------------------------------------------------+ */
-@color-tooltip-background:     @dark-blue;
-@color-tooltip-background-key: @dark-blue;
-@color-tooltip-text:           @dirty-white;
-@color-tooltip-text-key:       @dirty-white;
+@color-tooltip-background:     @northem10;
+@color-tooltip-background-key: @northem10;
+@color-tooltip-text:           @northem5;
+@color-tooltip-text-key:       @northem5;
 /* +---------------------------------------------------------------------[1.17]-+ */
 
 /* +----------------------------------------------------------------------------+
    + Core - Treeview                                                     [1.18] +
    +----------------------------------------------------------------------------+ */
-@color-treeview-background:          @darkest-gray;
-@color-treeview-background-selected: @gray;
-@color-treeview-text-project:        @blue;
+@color-treeview-background:          @northem0;
+@color-treeview-background-selected: @northem2;
+@color-treeview-text-project:        @northem9;
 @color-treeview-text-project-hover:  lighten(@color-treeview-text-project,8%);
 /* +---------------------------------------------------------------------[1.18]-+ */
 
@@ -253,11 +253,11 @@ Arctic Versioning Specification (ArcVer)
 /* +----------------------------------------------------------------------------+
    + Package Support - markdown-preview                                   [2.1] +
    +----------------------------------------------------------------------------+ */
-@color-packagesupport-markdown-preview-text:            @dirty-white;
+@color-packagesupport-markdown-preview-text:            @northem5;
 @color-packagesupport-markdown-preview-background:      @color-base-background;
-@color-packagesupport-markdown-preview-background-code: @gray;
+@color-packagesupport-markdown-preview-background-code: @northem2;
 @color-packagesupport-markdown-preview-element-hr:      @color-base-border;
-@color-packagesupport-markdown-preview-element-code:    @blue;
-@color-packagesupport-markdown-preview-element-link:    @blue;
+@color-packagesupport-markdown-preview-element-code:    @northem9;
+@color-packagesupport-markdown-preview-element-link:    @northem9;
 /* +----------------------------------------------------------------------[2.1]-+ */
 /* +------------------------------------------------------------------------[2]-+ */
