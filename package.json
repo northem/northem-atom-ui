@@ -2,7 +2,7 @@
   "name": "northem-atom-ui",
   "theme": "ui",
   "version": "0.4.0",
-  "description": "A north-bluish dark theme based on the same named color palette designed by Arctic Ice Studio",
+  "description": "A north-bluish, dark clean and elegant minimal Atom UI.",
   "author": {
     "name": "Arctic Ice Studio",
     "email": "development@arcticicestudio.com"
@@ -19,8 +19,11 @@
   "readmeFilename": "README.md",
   "keywords": [
     "northem",
+    "north",
     "bluish",
     "dark",
+    "clean",
+    "elegant",
     "ui"
   ],
   "license": "MIT",
