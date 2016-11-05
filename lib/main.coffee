@@ -2,7 +2,7 @@ root = document.documentElement;
 
 module.exports =
   activate: (state) ->
-    atom.config.observe 'nord-atom-ui.tabSizing', (noFullWidth) ->
+    atom.config.observe 'northem-atom-ui.tabSizing', (noFullWidth) ->
       setTabSizing(noFullWidth)
 
   deactivate: ->
@@ -12,7 +12,7 @@ setTabSizing = (noFullWidth) ->
   if (noFullWidth)
     unsetTabSizing()
   else
-    root.setAttribute('theme-nord-atom-ui-tabsizing', "nofullwidth")
+    root.setAttribute('theme-northem-atom-ui-tabsizing', "nofullwidth")
 
 unsetTabSizing = ->
-  root.removeAttribute('theme-nord-atom-ui-tabsizing')
+  root.removeAttribute('theme-northem-atom-ui-tabsizing')
