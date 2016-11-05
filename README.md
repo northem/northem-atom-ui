@@ -1,101 +1,49 @@
-Northem - Atom UI
-=================
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/northem-atom-ui/develop/assets/northem-atom-ui-banner.svg"/></p>
 
-[![Northem Logo](https://raw.githubusercontent.com/arcticicestudio/northem-atom-ui/master/assets/media/northem-logo.png)](http://arcticicestudio.com/northem)
+<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/northem-atom-ui"><img src="https://img.shields.io/travis/arcticicestudio/northem-atom-ui/develop.svg"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/northem-atom-ui"><img src="https://circleci.com/gh/arcticicestudio/northem-atom-ui.svg?style=shield&circle-token=4a33410e75c0cd55d4c34f9e68ee392cb89ccb00"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/northem-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/northem-atom-ui.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v2.0.0"><img src="https://img.shields.io/badge/Northem-v2.0.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/northem-atom-ui"><img src="https://img.shields.io/apm/v/northem-atom-ui.svg"/></a> <a href="https://atom.io/themes/northem-atom-ui"><img src="https://img.shields.io/apm/dm/northem-atom-ui.svg"/></a></p>
 
-### Description
-A north-bluish dark theme based on the same named [color palette](https://github.com/arcticicestudio/northem) designed by [Arctic Ice Studio](http://arcticicestudio.com).
+<p align="center">A north-bluish, dark clean and elegant minimal Atom UI.</p>
 
-![Northem Color Palette](https://raw.githubusercontent.com/arcticicestudio/northem-atom-ui/master/assets/media/northem.png)
+<p align="center">Designed for a optimized fluent and clear workflow.<br>
+Based on the <a href="https://github.com/arcticicestudio/northem">Northem</a> color palette.<br>
+Fits the <a href="https://atom.io/themes/northem-atom-syntax">northem-atom-syntax</a> theme.</p>
 
-![Northem Preview Screenshot](https://raw.githubusercontent.com/arcticicestudio/northem-atom-ui/master/assets/media/preview-screenshot.png)
+![][scrot-top]
+> Icons provided by [file-icons](https://atom.io/packages/file-icons), minimap by [minimap](https://atom.io/packages/minimap).
 
-### Variations
-  - <a href="https://github.com/arcticicestudio/northem-dark-atom-ui"><img src="https://atom.io/favicon.ico" alt="Atom Logo" width=16 height=16> Northem Dark Atom UI</a> <img src="https://www.kernel.org/theme/images/logos/favicon.png" alt="Linux Logo" width=16 height=16 /> <img src="https://developer.apple.com/favicon.ico" alt="Apple Logo" width=16 height=16 /> <img src="https://www.microsoft.com/en-us/windows/favicon.ico" alt="Windows Logo" width=16 height=16 />
-  - <a href="https://github.com/arcticicestudio/northem-light-atom-ui"><img src="https://atom.io/favicon.ico" alt="Atom Logo" width=16 height=16> Northem Light Atom UI</a> <img src="https://www.kernel.org/theme/images/logos/favicon.png" alt="Linux Logo" width=16 height=16 /> <img src="https://developer.apple.com/favicon.ico" alt="Apple Logo" width=16 height=16 /> <img src="https://www.microsoft.com/en-us/windows/favicon.ico" alt="Windows Logo" width=16 height=16 />
-
-Also make sure to check out **<a href="https://github.com/arcticicestudio/northem-atom-syntax"><img src="https://atom.io/favicon.ico" alt="Atom Logo" width=16 height=16> Northem Atom Syntax</a>!**
-
-### Other Projects
-  - <a href="https://github.com/arcticicestudio/northem-intellij-idea-syntax"><img src="https://www.jetbrains.com/_assets//shared/favicons/jetbrains.ico" alt="JetBrain logo" width=16 height=16> Northem IntelliJ IDEA Syntax</a> <img src="https://www.kernel.org/theme/images/logos/favicon.png" alt="Linux Logo" width=16 height=16 /> <img src="https://developer.apple.com/favicon.ico" alt="Apple Logo" width=16 height=16 /> <img src="https://www.microsoft.com/en-us/windows/favicon.ico" alt="Windows Logo" width=16 height=16 />
-  - <a href="https://github.com/arcticicestudio/northem-eclipse-syntax"><img src="https://eclipse.org/favicon.ico" alt="Eclipse Logo" width=16 height=16> Northem Eclipse Syntax</a> <img src="https://www.kernel.org/theme/images/logos/favicon.png" alt="Linux Logo" width=16 height=16 /> <img src="https://developer.apple.com/favicon.ico" alt="Apple Logo" width=16 height=16 /> <img src="https://www.microsoft.com/en-us/windows/favicon.ico" alt="Windows Logo" width=16 height=16 />
-  - <a href="https://github.com/arcticicestudio/northem-java"><img src="https://www.java.com/favicon.ico" alt="Java logo" width=16 height=16> Northem Java</a> <img src="https://www.kernel.org/theme/images/logos/favicon.png" alt="Linux Logo" width=16 height=16 /> <img src="https://developer.apple.com/favicon.ico" alt="Apple Logo" width=16 height=16 /> <img src="https://www.microsoft.com/en-us/windows/favicon.ico" alt="Windows Logo" width=16 height=16 />
-  - <a href="https://github.com/arcticicestudio/northem-gedit"><img src="https://static.gnome.org/wiki.gnome.org/gnome/css/favicon.png" alt="gedit Logo" width=16 height=16> Northem gedit</a> <img src="https://www.kernel.org/theme/images/logos/favicon.png" alt="Linux Logo" width=16 height=16 />
-  - <a href="#"><img src="http://www.gtk.org/images/gtk-logo.ico" alt="GTK Logo" width=16 height=16> Northem GTK</a> (in drafting) <img src="https://www.kernel.org/theme/images/logos/favicon.png" alt="Linux Logo" width=16 height=16 />
-  - <a href="https://github.com/arcticicestudio/northem-notepadplusplus"><img src="http://notepad-plus-plus.org/assets/images/favicon.ico" alt="Notepadd++ Logo" width=16 height=16> Northem Notepad++</a> <img src="https://www.microsoft.com/en-us/windows/favicon.ico" alt="Windows Logo" width=16 height=16 />
-
-Visit the [official website](http://arcticicestudio.com/northem) (actually under construction) for more information.
-
-### Package Support
-  - <a href="https://atom.io/packages/autocomplete-plus"><img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> `autocomplete-plus@^2.25.0`</a>
-  - <a href="https://atom.io/packages/find-and-replace"><img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> `find-and-replace@^0.194.0`</a>
-  - <a href="https://atom.io/packages/project-manager"><img src="https://avatars0.githubusercontent.com/u/696872" width=16 height=16/> `project-manager@^2.7.5`</a>
-  - <a href="https://atom.io/packages/markdown-preview"><img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> `markdown-preview@^0.157.0`</a>
-
-### Version
-[`0.5.0`](https://github.com/arcticicestudio/northem-atom-ui/releases/latest)  
-
-For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/northem-atom-ui/releases) or the [official website](http://arcticicestudio.com/northem) (actually under construction).
-
-### Changelog
-[`0.5.0`](https://github.com/arcticicestudio/northem-atom-ui/blob/master/CHANGELOG.md)
-
-The changelog can be viewed in the Atom package view via *Settings > Packages* by filtering for `northem-atom-ui`.
-The full changelog is available at the [GitHub Repository](https://github.com/arcticicestudio/northem-dark-atom-ui) and [official website](http://arcticicestudio.com/northem) (actually under construction).
-
-### Recommendations
-This theme matches the Open Source font [Roboto](http://www.google.com/fonts/specimen/Roboto).  
-Visit the [GitHub Repository](https://github.com/google/fonts/tree/master/apache/roboto) for more information.
-
+## Getting started
 ### Installation
-Download and install the recommended font, read section [Recommendations](#Recommendations) for more information.
+**<img src="https://atom.io/favicon.ico" width=16 height=16/> [apm](https://github.com/atom/apm)**  
+```shell
+apm install northem-atom-ui
+```
 
-Install via [apm](https://github.com/atom/apm): `apm install northem-atom-ui`  
-Alternatively open *Settings > Install*, set the filter to *Themes* and search for `northem-atom-ui`.
+**<img src="https://atom.io/favicon.ico" width=16 height=16/> [Atom](https://atom.io)**  
+  1. Open *Settings > Install*
+  2. Set the filter to *Themes*
+  3. Search for `northem-atom-ui` and install
 
-Activate it by going to the *Settings > Themes* section and selecting `Northem` from the *UI Theme* drop-down menu.
+**Activation**
+  1. Open *Settings > Themes*
+  2. Select `Northem Atom` from the *UI Theme* drop-down menu
 
-### Development
-#### Workflow
-This project follows the [gitflow](http://nvie.com/posts/a-successful-git-branching-model) branching model.
+## Features
+<p align="center">Floating modal overlays with a big font type.<br><img src="https://raw.githubusercontent.com/arcticicestudio/northem-atom-ui/develop/assets/scrot-feature-modal-overlay.png"/><br>Smooth, non-obtrusive transitions for UI components.<br><img src="https://raw.githubusercontent.com/arcticicestudio/northem-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif"/><br>Optimized tab layout by using the full editor width.<br><img src="https://raw.githubusercontent.com/arcticicestudio/northem-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif"/><br>Flat, colored dirty state indicator.<br><img src="https://raw.githubusercontent.com/arcticicestudio/northem-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif"/><br></p>
 
-#### Specifications
-This project follows the [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio/arcver).
+## Package Support
+This theme contains optimized styles to achieve a consistent and uniform UI experience.   
+Detailed descriptions for supported packages can be found in the [project wiki](https://github.com/arcticicestudio/northem-atom-ui/wiki/Package-Support).
 
-### Dependencies
-#### Production
-**Engines**
-  - [`atom@1.*.*`](https://atom.io)
-
-#### Development
-  - [`northem@1.0.1`](https://github.com/arcticicestudio/northem)
-
-**Engines**
-  - [`git@2.8.*`](https://git-scm.com)
-
-**Skeletons**
-  - [`glacier-git@0.21.0`](https://github.com/arcticicestudio/glacier-git)
+## Development
+[![](https://img.shields.io/badge/Changelog-0.4.0-blue.svg)](https://github.com/arcticicestudio/northem-atom-ui/blob/v0.4.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
-Please report issues/bugs, suggestions for improvements and feature requests to the [issuetracker](https://github.com/arcticicestudio/northem-atom-ui/issues).
+Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/northem-atom-ui/issues).
 
-### Author
-[Northem - Atom UI](https://github.com/arcticicestudio/northem-atom-ui) is developed and authored by [Arctic Ice Studio](http://arcticicestudio.com).
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg" /></p>
 
-### Copyright
-<a href="mailto:development@arcticicestudio.com"><img src="http://arcticicestudio.com/favicon.ico" width=16 height=16 alt="Arctic Ice Studio Logo"/> Copyright &copy; 2015-2016 Arctic Ice Studio</a>
+<p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>
 
-### License
-[![GPL-3.0](http://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.txt) [![CC BY-SA-4.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
+<p align="center"><a href="https://github.com/arcticicestudio/northem-atom-ui/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
 
----
-
-### References
-  - [Northem](https://github.com/arcticicestudio/northem)
-  - [Atom API-Documentation](https://atom.io/docs/api/latest/Atom)  
-  - [Atom Flight Manual](https://atom.io/docs)  
-  - [LESSCSS](http://lesscss.org)  
-  - [Modular Scale](http://www.modularscale.com)
-  - [Arctic Versioning Specification](http://specs.arcticicestudio.com/arcver) (ArcVer)
-  - [gitflow](http://nvie.com/posts/a-successful-git-branching-model)
-  - [Glacier - Git](https://github.com/arcticicestudio/glacier-git)
+[scrot-top]: https://raw.githubusercontent.com/arcticicestudio/northem-atom-ui/develop/assets/scrot-top.png
