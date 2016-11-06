@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/northem-atom-ui/develop/assets/northem-atom-ui-banner.svg"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/northem-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/northem-atom-ui.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v2.0.0"><img src="https://img.shields.io/badge/Northem-v2.0.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/northem-atom-ui"><img src="https://img.shields.io/apm/v/northem-atom-ui.svg"/></a> <a href="https://atom.io/themes/northem-atom-ui"><img src="https://img.shields.io/apm/dm/northem-atom-ui.svg"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/northem-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/northem-atom-ui.svg"/></a> <a href="https://github.com/arcticicestudio/northem/releases/tag/v2.0.0"><img src="https://img.shields.io/badge/Northem-v2.0.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/northem-atom-ui"><img src="https://img.shields.io/apm/v/northem-atom-ui.svg"/></a> <a href="https://atom.io/themes/northem-atom-ui"><img src="https://img.shields.io/apm/dm/northem-atom-ui.svg"/></a></p>
 
 ---
 
